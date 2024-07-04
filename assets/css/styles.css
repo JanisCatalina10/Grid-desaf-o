@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* GRID CONTAINER */
+.container{
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-areas:
+    "header header"
+    "sidebar primary"
+    "info info";
+}
+
+/* NAVBAR*/
+.header{
+    grid-area: header;
+    padding: 30px;
+    background-color: rgb(3, 58, 77);
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/*ASIDE */
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(228, 231, 233);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.list{
+    list-style: none;
+    line-height: 30px;
+}
+aside a{
+    color: inherit; 
+    text-decoration: none; 
+}
+.list a:hover{
+    background-color: rgb(194, 197, 197);
+}
+.list a:focus{
+    background-color: rgb(238, 246, 246)
+}
+.texto-gris{
+    color: grey;
+}
+
+/*MAIN */
+.primary{
+    background-color:  rgb(228, 231, 233);
+    grid-area: primary;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 . .";
+    gap: 20px;
+    padding: 20px;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+
+/* CARDS */
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+.cards p{
+    color: grey;
+}
+.btn{
+    padding: 5px;
+    background-color:  rgb(3, 58, 77);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(94, 135, 176);
+}
+.btn:focus{
+    background-color: rgb(174, 175, 177);
+}
+/*FOOTER */
+.info{
+    grid-area: info;
+    padding: 20px;
+    background-color: rgb(0, 34, 44);
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
