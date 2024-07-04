@@ -26,7 +26,7 @@
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(228, 231, 233);
-    height: 100vh;
+    height: 114vh;
     font-family: "Poppins", sans-serif;
 }
 
