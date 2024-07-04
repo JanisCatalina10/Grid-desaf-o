@@ -26,7 +26,7 @@
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(228, 231, 233);
-    height: 114vh;
+    height: 115vh;
     font-family: "Poppins", sans-serif;
 }
 
@@ -96,6 +96,7 @@ aside a{
     background-color:  rgb(3, 58, 77);
     color: white;
     font-family: "Poppins", sans-serif;
+    font-size: 15px;
     cursor: pointer;
 }
 .btn:hover{
@@ -108,7 +109,7 @@ aside a{
 .info{
     grid-area: info;
     padding: 20px;
-    background-color: rgb(0, 34, 44);
+    background-color: rgb(94, 135, 176);
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
