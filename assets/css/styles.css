@@ -60,12 +60,14 @@ aside a{
     grid-area: primary;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-rows: auto auto;
+   /* grid-template-areas: 
     "item1 item2 item3"
-    "item4 . .";
+    "item4 . .";*/
     gap: 20px;
     padding: 20px;
 }
+/*
 .item1{
     grid-area: item1;
 }
@@ -78,6 +80,7 @@ aside a{
 .item4{
     grid-area: item4;
 }
+*/
 
 /* CARDS */
 .cards{
@@ -105,6 +108,7 @@ aside a{
 .btn:focus{
     background-color: rgb(174, 175, 177);
 }
+
 /*FOOTER */
 .info{
     grid-area: info;
