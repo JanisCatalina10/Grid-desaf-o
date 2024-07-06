@@ -25,7 +25,7 @@
 /*ASIDE */
 .sidebar{
     grid-area: sidebar;
-    background-color: rgb(228, 231, 233);
+    background-color: white;
     height: 115vh;
     font-family: "Poppins", sans-serif;
 }
@@ -56,7 +56,7 @@ aside a{
 
 /*MAIN */
 .primary{
-    background-color:  rgb(228, 231, 233);
+    background-color:  white;
     grid-area: primary;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
