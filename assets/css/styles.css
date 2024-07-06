@@ -60,7 +60,7 @@ aside a{
     grid-area: primary;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
     padding: 20px;
 }
